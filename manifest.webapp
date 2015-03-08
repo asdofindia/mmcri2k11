@@ -1,6 +1,6 @@
 {
     "name": "2k11",
-    "description": "Ap for 2k11",
+    "description": "App for 2k11",
     "version": "1.0.0",
     "developer": {
         "name": "Akshay S Dinesh",
@@ -12,7 +12,7 @@
     },
     "launch_path": "index.html",
     "installs_allowed_from": ["*"],
-    "manifest_version": 2,
+    "manifest_version": 3,
     "app": {
       "background": {"scripts": ["js/background.js"]}
     },
