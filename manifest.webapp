@@ -1,16 +1,16 @@
 {
     "name": "2k11",
     "description": "App for 2k11",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "developer": {
         "name": "Akshay S Dinesh",
         "url": "http://learnlearn.in"
     },
     "icons":{
-        "60": "/style/icons/apple-touch-icon-precomposed.png",
-        "128": "/style/icons/icon128.png"
+        "60": "http://asdofindia.github.io/mmcri2k11/style/icons/apple-touch-icon-precomposed.png",
+        "128": "http://asdofindia.github.io/mmcri2k11/style/icons/icon128.png"
     },
-    "launch_path": "index.html",
+    "launch_path": "http://asdofindia.github.io/mmcri2k11/index.html",
     "installs_allowed_from": ["*"],
     "manifest_version": 3,
     "app": {
