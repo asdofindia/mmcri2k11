@@ -51,13 +51,13 @@ Exchange the line above for this to disable offline support
 -->
     
   </head>
-  <body fullbleed unresolved>
+  <body fullbleed>
+<div id="loading">Loading..</div>
 
     <template is="auto-binding" id="maintemplate">
     
     <flatiron-director route="{{route}}" autohash></flatiron-director>
     <core-scaffold id="mainapp">
-
     <core-header-panel navigation flex mode="seamed">
       <core-toolbar>Application</core-toolbar>
       <core-menu valueattr="hash" selected="{{route}}" on-core-select="{{menuItemSelected}}">
